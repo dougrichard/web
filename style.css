@@ -2,13 +2,11 @@ body {
   background-color: #000000;
   cursor: crosshair;
   oveflow: hidden;
-  height: 100%;
   margin: 0
 }
 
 html {
     font-size: calc(16px + 0.5vw);
-    padding: cal(10%);
 }
 
 @font-face {
@@ -27,11 +25,12 @@ html {
   width: 60%;
   border: none;
   text-align:center;
-  position: sticky;
+  position: absolute;
     left: 20%;
-    top: 40%;
+    top: 30%;
     transform: translateX(-50%);
     transform: translateY(-50px);
+
 }
 
 .btn {
@@ -60,22 +59,18 @@ border: 1.5px solid white;
 }
 
 .h1 {
+  z index: 2;
   font-family: "Sangbleu";
   font-size: 4.2rem;
   color: #FFFFFF;
   font-weight: regular;
-  padding-bottom: 10%;
   border: none;
   position: sticky;
-  margin-bottom: 5%;
+  margin-bottom: 3rem;
 }
 
-.animation {
+#animation {
   z-index: 0;
-  height: 100%;
-  width: 100%;
-  overflow: hidden;
-  z-index: 1;
 
 }
 
