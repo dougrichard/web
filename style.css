@@ -6,7 +6,7 @@ body {
 }
 
 html {
-    font-size: calc(16px + 0.5vw);
+  font-size: min(max(1rem, 4vw), 22px);
 }
 
 @font-face {
