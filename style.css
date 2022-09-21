@@ -1,4 +1,4 @@
-html, body {
+body {
   background-color: #000000;
   cursor: crosshair;
   oveflow: hidden;
@@ -71,8 +71,10 @@ border: 1.5px solid white;
 }
 
 .animation {
+  z-index: 0;
   height: 100%;
   width: 100%;
+  overflow: hidden;
   z-index: 1;
 
 }
