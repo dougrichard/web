@@ -1,8 +1,9 @@
-body {
+html, body {
   background-color: #000000;
   cursor: crosshair;
-  oveflow:hidden;
+  oveflow: hidden;
   height: 100%;
+  margin: 0
 }
 
 html {
