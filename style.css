@@ -6,7 +6,7 @@ body {
 }
 
 html {
-    font-size: calc(100px + 0.5vw);
+    font-size: calc(16px + 0.5vw);
     padding: cal(10%);
 }
 
